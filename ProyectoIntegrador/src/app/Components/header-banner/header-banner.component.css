@@ -1,0 +1,6 @@
+@media (min-width: 768px){
+    #foto{
+        position: relative;
+        bottom: 150px;
+    }
+}
