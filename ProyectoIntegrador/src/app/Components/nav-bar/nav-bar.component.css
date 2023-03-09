@@ -3,3 +3,32 @@
         position: relative;
     }
 }
+
+#foto{
+    bottom: 0px;
+}
+
+@media (max-width: 767.98px) {
+    .foto{
+        display: flex;
+        justify-content: center;
+        
+    }
+    #foto{
+        height: auto;
+        max-height: 250px;
+        top: -122px;
+    }
+}
+
+@media (min-width: 768px) {
+    .foto{
+        display: inline;
+        justify-content: center;
+       
+    }
+    #foto{
+         max-height: 1500px;
+         top: -237px;
+    }
+}
