@@ -1,4 +1,33 @@
-.texto{
-    color: #dcdcdc;
+.circle{
+    height: 150px;
+    width: 150px;;
 }
-@medi
+.margin{
+    display: flex;
+    justify-content: center;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .circle{
+        height: 180px;
+        width: 180px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .circle{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

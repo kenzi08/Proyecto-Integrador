@@ -9,6 +9,7 @@ import { ExpComponent } from './Components/exp/exp.component';
 
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HSSkillsComponent } from './Components/hs-skills/hs-skills.component';
+import { ProyectosComponent } from './Components/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HSSkillsComponent } from './Components/hs-skills/hs-skills.component';
     NavBarComponent,
     HeaderBannerComponent,
     ExpComponent,
-    HSSkillsComponent
+    HSSkillsComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
